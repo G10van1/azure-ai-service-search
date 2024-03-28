@@ -12,6 +12,8 @@ Este passo a passo servirá de guia para testar o serviço Azure AI Search. A pr
 
 ![Image](Images/fig3.gif)
 
+____________________________________________________________________________________________________________
+
 ![Image](Images/fig4.png)
 
 ## Passo 4: Permitindo acesso anônimo ao Blob:
@@ -25,6 +27,8 @@ Apenas para fins didáticos, com intuito de aprender os princípios da inteligê
 Navegue até a guia Data **Storage>Containers**, para criar o contanier dentro do storage e adicionar as pesquisas que seram analisadas pelo AI Service.
 
 ![Image](Images/fig6.gif)
+
+____________________________________________________________________________________________________________
 
 ![Image](Images/fig7.gif)
 
@@ -44,7 +48,7 @@ Note que a instrução manda que selecionemos o recurso AI Service configurado, 
 
 Siga todas as configurações terminando no passo "17. Select the indexer name to see more details".
 
-## Passo 7: Cnsultando o índice:
+## Passo 7: Consultando o índice:
 
 Feitas todas as configurações vamos voltar ao Azure AI Services, entrar no nosso serviço e através do Search Explorer testar se tudo foi indexado e se a consulta está funcionando, utilizando os comandos:
 
@@ -59,6 +63,8 @@ search=locations:'Chicago' ( Consulta as ocorrencias acontecidas em Chicado )
 ![Image](Images/fig12.png)
 
 search=sentiment:'negative' ( Consulta as ocorrencias com sentimento negativo )
+
+![Image](Images/fig13.png)
 
 ## Referência:
 
